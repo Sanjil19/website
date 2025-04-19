@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Engineering Student Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="main-nav">
+        <a href="#hero" class="nav-logo">Sanjil Dahal</a>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div id="tsparticles"></div>
+        <div class="hero-content">
+          <h1 data-aos="fade-down">Hi, I'm Sanjil Dahal</h1>
+          <p data-aos="fade-up" data-aos-delay="100">
+            A passionate Software Engineering Student crafting digital
+            solutions.
+          </p>
+          <!-- Remove the problematic CTA button -->
+          <!-- <a href="#about" class="cta-button">Learn More About Me</a> -->
+        </div>
+      </section>
+
+      <section id="about" class="content-section" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+          I'm a dedicated software engineering student with a passion for
+          problem-solving, learning new technologies, and building innovative
+          applications. Detail your journey, interests, and aspirations here.
+        </p>
+
+        <!-- Add Currently Exploring Section -->
+        <div
+          class="currently-exploring"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <h3>Currently Exploring</h3>
+          <ul>
+            <li>Advanced React Patterns</li>
+            <li>Cloud Deployment (AWS/Docker)</li>
+            <li>GraphQL Fundamentals</li>
+            <li>UI/UX Design Principles</li>
+            <!-- Add/remove technologies you are actually learning -->
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="content-section" data-aos="fade-up">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>HTML/CSS</li>
+            </ul>
+          </div>
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+            <h3>Frameworks/Libraries</h3>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Flask/Django</li>
+            </ul>
+          </div>
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>Git/GitHub</li>
+              <li>Docker</li>
+              <li>SQL</li>
+              <li>Linux</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+        </div>
+        <!-- More content here -->
+      </section>
+
+      <section id="projects" class="content-section" data-aos="fade-up">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <!-- Add a placeholder div for background color -->
+            <div class="project-image-placeholder project-placeholder-1"></div>
+            <!-- Optional Image (remove or comment out if using placeholder) -->
+            <!-- <img src="placeholder-project1.jpg" alt="Project 1 Screenshot" /> -->
+            <div class="project-content">
+              <h3>Project Title 1</h3>
+
+              <h4>The Problem</h4>
+              <p>
+                Briefly describe the problem this project aimed to solve (1-2
+                sentences).
+              </p>
+
+              <h4>Key Features / Solution</h4>
+              <p>
+                Describe the main features or the solution you implemented (2-3
+                sentences).
+              </p>
+
+              <h4>Challenges & Learning</h4>
+              <p>
+                Mention a key challenge faced and what you learned from it (1-2
+                sentences).
+              </p>
+
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#" target="_blank" class="btn-link"
+                  ><i class="fab fa-github"></i> Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <!-- Add a placeholder div for background color -->
+            <div class="project-image-placeholder project-placeholder-2"></div>
+            <!-- Optional Image (remove or comment out if using placeholder) -->
+            <!-- <img src="placeholder-project2.jpg" alt="Project 2 Screenshot" /> -->
+            <div class="project-content">
+              <h3>Project Title 2</h3>
+
+              <h4>The Problem</h4>
+              <p>
+                Briefly describe the problem this project aimed to solve (1-2
+                sentences).
+              </p>
+
+              <h4>Key Features / Solution</h4>
+              <p>
+                Describe the main features or the solution you implemented (2-3
+                sentences).
+              </p>
+
+              <h4>Challenges & Learning</h4>
+              <p>
+                Mention a key challenge faced and what you learned from it (1-2
+                sentences).
+              </p>
+
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#" target="_blank" class="btn-link"
+                  ><i class="fab fa-github"></i> Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Add more project cards as needed -->
+        </div>
+      </section>
+
+      <section id="education" class="content-section" data-aos="fade-up">
+        <h2>Education</h2>
+        <div class="education-entry" data-aos="fade-up">
+          <h3>B.Sc. Software Engineering</h3>
+          <p class="institution">
+            Nepal College of Information Technology (NCIT)
+          </p>
+          <p class="duration">Expected Graduation: 2028</p>
+          <ul>
+            <li>
+              Relevant Coursework: Data Structures, Algorithms, Web Development,
+              Database Management, Object-Oriented Programming...
+            </li>
+            <li>
+              Academic Achievements/Activities: (Optional: Dean's List, relevant
+              clubs, etc.)
+            </li>
+          </ul>
+        </div>
+        <!-- Add other education entries if applicable -->
+      </section>
+
+      <section id="contact" class="content-section" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out! You can contact me via email or connect on
+          social media.
+        </p>
+        <!-- Add contact form or details here -->
+        <!-- Example: <a href="mailto:your.email@example.com">your.email@example.com</a> -->
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="social-links">
+        <a
+          href="https://github.com/Sanjil19"
+          target="_blank"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sanjeel-dahal-191522360/"
+          target="_blank"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/sanjeel.dahal/"
+          target="_blank"
+          aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <p>&copy; 2024 Sanjil Dahal. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
